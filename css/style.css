@@ -1,0 +1,309 @@
+body{
+	background:#151720;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    
+}
+
+@font-face {
+	font-family: 'MyriadProSemibold';
+	src: url('./font/MyriadProSemibold.eot');
+	src: local('MyriadProSemibold'), url('./font/MyriadProSemibold.woff') format('woff'), url('./font/MyriadProSemibold.ttf') format('truetype');
+}
+
+#container{
+	margin:0 auto;
+	text-align:center;
+    width:100%;
+    overflow:hidden;
+}
+
+
+#nav{
+	width:100%;
+	height:90px;
+	background:white;
+	overflow:hidden;
+}
+
+#nav_wr{
+	width:1200px;
+	height:90px;
+	overflow:hidden;
+	margin:0 auto;
+}
+
+.logo{
+	width:100% auto;
+	height:60px;
+	margin-top:15px;
+	margin-left:0px;
+	text-align:left;
+	float:left;
+}
+
+.button_wr{
+	width:200px;
+	height:60px;
+	margin-top:0px;
+	margin-left:1000px;
+	text-align:left;
+	margin-top:15px;
+}
+
+.signup{
+	background:black;
+	border-radius:2px;
+	width:110px;
+	height:55px;
+	margin-top:2.5px;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-weight:bold;
+	float:left;
+}
+
+.login{
+	background:transparent;
+	width:50px;
+	height:55px;
+	margin-top:2.5px;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-weight:bold;
+	margin-left:15px;
+	text-align:center;
+}
+
+.signup1{
+	background:black;
+	border-radius:2px;
+	width:110px;
+	height:55px;
+	margin-top:2.5px;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-weight:bold;
+	float:left;
+}
+
+.login1{
+	background:transparent;
+	width:50px;
+	height:55px;
+	margin-top:2.5px;
+	cursor:pointer;
+	color:black;
+	font-family:Arial;
+	font-weight:bold;
+	margin-left:15px;
+	text-align:center;
+}
+
+#middle{
+	margin:0 auto;
+	width:1200px;
+	height:500px;
+	margin-top:20px;
+}
+
+#artigo{
+	width:230px;
+	height:355px;
+    float:left;
+    margin-left:10px;
+}
+
+#inform{
+	position:absolute;
+	margin-top:-35px;
+	margin-left:0px;
+	width:100% auto;
+	height:20px;
+
+}
+.price{
+	margin-left:5px;
+	background:black;
+	border-radius:1px;
+	width:100% auto;
+	font-size:14px;
+	height:20px;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-weight:bold;
+	float:left;
+}
+
+
+.buy{
+	background:#008aff;
+	border-radius:2px;
+	width:90px;
+	height:35px;
+	position:relative;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-weight:bold;
+	margin-top:5px;
+}
+
+#artigo_comprar{
+	width:1200px;
+	height:355px;
+    float:left;
+    margin-left:10px;
+    text-align:left;
+}
+
+.desc{
+	width:500px;
+	height:100%;
+	margin-left:260px;
+	font-size:14px;
+	color:white;
+	font-family:Arial;
+}
+
+a:link {
+    text-decoration:none;
+    color:black;
+}
+
+/* visited link */
+a:visited {
+    text-decoration:none;
+     color:black;
+}
+
+/* mouse over link */
+a:hover {
+    text-decoration:none;
+     color:black;
+}
+
+/* selected link */
+a:active {
+    text-decoration:none;
+     color:black;
+}
+
+
+.test{
+  margin:0 auto;
+ width:250px;
+ height:35px;
+color:#787878;
+ background:#eaeaea;
+ border-radius:2px;
+ margin-top:10px;
+ text-indent:10px;
+ font-family: 'MyriadProSemibold';
+}
+
+.test1{
+  margin:0 auto;
+ width:250px;
+ height:105px;
+color:#787878;
+ background:#eaeaea;
+ border-radius:2px;
+ margin-top:10px;
+ text-indent:10px;
+ font-family: 'MyriadProSemibold';
+}
+
+.log{
+  margin:0 auto;
+ width:250px;
+ height:35px;
+color:white;
+ background:#1098C5;
+ border-radius:2px;
+ margin-top:10px;
+ font-family: Arial;
+ font-weight:bold;
+ cursor:pointer;
+ font-size:14px;
+
+}
+
+.cc{
+	margin:0 auto;
+	border-radius:2px;
+	width:350px;
+	height:100% auto;
+	background:white;
+	text-align:center;
+	overflow:hidden;
+}
+
+.bx1{
+	margin:0 auto;
+	width:100% auto;
+	height:100% auto;
+	margin-top:5px;
+	margin-left:5px;
+}
+
+.bt{
+	background:black;
+	width:110px;
+	height:35px;
+	color:white;
+	border-radius:2px;
+	cursor:pointer;
+	font-family:Arial;
+	font-weight:bold;
+	margin-top:10px;
+}
+
+#subnav{
+	width:100%;
+	height:36px;
+	background:black;
+	overflow:hidden;
+}
+
+#sn_wr{
+	margin:0 auto;
+	width:1200px;
+	height:36px;
+	text-align:left;
+	overflow:hidden;
+}
+
+.button_p{
+	background:transparent;
+	color:white;
+	width:100% auto;
+	height:36px;
+	text-align:center;
+	overflow:hidden;
+	float:left;
+	margin-left:1px;
+	font-family: Arial;
+	font-weight:bold;
+	font-size:14px;
+}
+
+.button_p:hover{
+	background:#0c0c0c;
+	color:white;
+	width:100% auto;
+	height:36px;
+	text-align:center;
+	overflow:hidden;
+	float:left;
+	margin-left:1px;
+}
